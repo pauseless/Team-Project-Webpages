@@ -34,3 +34,13 @@
 #test-video-border{
 	color: blue;
 }
+
+.bottom-panel{
+	background-color: lemonchiffon;
+	/*box-shadow: 0px 0px 105px 45px rgba(44,140,255,0.90) Currently unused glow */
+}
+
+.bottom-panel-cells{
+	background-color: lemonchiffon;
+	background-blend-mode: multiply;
+}
