@@ -3,8 +3,12 @@
 .topic-banner{
 	position: relative;
 	overflow: hidden;
+	color: white;
+	text-shadow: -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black, 1px 1px 2px black; /* Adds text shadow effect, might need some rework */
+	padding-bottom: 1.2em;
+	padding-top: 1.2em;
 }
-.topic-banner-after{
+.topic-banner-bg{
 	background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.goodfreephotos.com%2Falbums%2Fbusiness-and-technology%2Fmotherboard-with-lots-of-components.jpg&f=1&nofb=1&ipt=4abc491fe04986db483ac14501037f34aaed0ad5754d3c66a2868191aa32b479&ipo=images) center/cover no-repeat; /*This duckduckgo image is temp*/ /* This is the background image that goes below the color*/
 	z-index: -1; /* This makes it so text & elements, appear above*/
 	height: 100%;
@@ -16,4 +20,17 @@
 	background-color: cornflowerblue; /*This is the color that goes over the image*/
 	background-blend-mode: screen;
 }
+.cell-borders{
+	border-style: solid;
+	border-color: rgba(0,0,0,0.01);
+}
+.main-content{
+	padding-top: 2em;
+}
+.grid-video-section{
+	padding-top: 1.4em;
+}
 
+#test-video-border{
+	color: blue;
+}
