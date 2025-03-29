@@ -2,32 +2,63 @@
 <html>
 	<head>
 	<meta charset="utf-8">
-	<title>Untitled Document</title>
-		<title>Part 2</title>
+		<title>Part 1</title>
 
 		<link href="Foundation-Sites-CSS/css/foundation.css" rel="stylesheet" type="text/css">
 		<link href="mystylesheet.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
-		<h1>Test</h1>
-		<div class ="text-center">
-			<h1>Using VirtualBox</h1>
-			<h2>Configuring a VM and rolling back with Snapshots</h2>
+		<div class ="text-center topic-banner">
+			<div class="topic-banner-bg"></div>
+			<h1>Virtual Machines</h1>
+			<h2>Introduction to Virtual Box</h2>
 		</div>
-		<div class="grid-container">
-			<div class="grid-x grid-padding-x grid-margin-x">
-				<div class="medium-4">
-					<h1>What is a Snapshot?</h1>
+		<div class="grid-container main-content">
+			<div class="grid-x grid-margin-x grid-padding-x">
+				<div class="large-4 cell cell-borders">
+					<h1>What is a Virtual Machine?</h1>
 				</div>
-				<div class="medium-4">
-					<h2>Rewind the Clock</h2>
-					<p>Snapshot's in VirtualBox allow you to save the state of a Virtual Machine. Essentially the way it was exactly functioning at that time</p>
-					<p>That means the machine can be reverted back to the time the snapshot was taken after it's suffered a critical failure, lost files, or you did something you didn't mean to do.</p>
+				<div class="large-4 cell cell-borders">
+					<h3>Computer Virtualization</h3>
+					<p>Virtual Machines are essentially a simulated computer that runs on a main computer.</p>
+					<p>So for example, Your Windows 11 machine can run a VM (Virtual Machine) of Linux or Mac OS or Windows XP all without having to make a new computer or install those onto your computer!</p>
 				</div>
-				<div class="large-4 cell">
-					<h3>Be Warned However!</h3>
-					<p>Snapshot's use a lot of storage! If you make too many you'll find yourself out of storage very quickly.</p>
+				<div class="large-4 cell cell-borders">
+					<h3>Use in Cyber Security</h3>
+					<p>Virtual Machines get used within Cyber-Security of isolating environments, testing and simulating machines all while being contained. So if you load a virus on a virtual machine, in most circumstances only the virtual machine storage will be affected. You can also test how different machines react such as different windows versions or different operating systems entirely.</p>
+					<p>In this Module we'll be creating a isolated environment where we can test machines using Virtualbox</p>
+				</div>
+			</div>
+			<div class="grid-y grid-padding-y grid-margin-y grid-video-section">
+				<div class="large-3 text-center">
+					<h1>Here is a video tutorial showing how to get started with Virtual Box</h1>
+				</div>
+				<div class="large-auto align-center">
+					<video class="flex-video" id="test-video-border"> <source src="https://drive.google.com/file/d/1vfKiJkZuJ7RWNvnY6LOUZSF3SbFsoW8o/view?usp=sharing.mp4" type="video/mp4"> Oops! Your Browser has failed to load this video, try refreshing the page, turning off adblock or using a different browser.</video>
+				</div>
+				<div class="large-3 bottom-panel">
+					<div class="grid-x grid-padding-x">
+						<div class="medium-5 cell ">
+							<h2>Topics covered in the video</h2>
+						</div>
+						<div class="medium-6 cell">
+							<ul>
+								<li>Installation of VirtualBox on a Windows system</li>
+								<li>Downloading a Linux Installation Media (.ISO)</li>
+								<li>Setting up a Virtual Machine and installing Linux to it</li>
+								<li>Using the various options of the virtual machine</li>
+							</ul>
+						</div>
+					</div>
+					<h2>Lesson Resources used</h2>
+					<ul>
+						<li>Oracle Virtual Box</li>
+						<li>Linux: Ubuntu Peppermint</li>
+					</ul>
+					<h2>What is Virtualbox Why are we using it?</h2>
+					<p>Virtual Box is a virtualization program with Type-2 Hyper-Visor capabilities. It's free to use and simple while containing complex features</p>
+					<p></p>
 				</div>
 			</div>
 		</div>
