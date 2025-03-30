@@ -2,7 +2,7 @@
 <html>
 	<head>
 	<meta charset="utf-8">
-		<title>Part 2</title>
+		<title>Part 4</title>
 
 		<link href="Foundation-Sites-CSS/css/foundation.css" rel="stylesheet" type="text/css">
 		<link href="mystylesheet.css" rel="stylesheet" type="text/css">
@@ -13,7 +13,7 @@
 			<img src="logotransparent.png" class="company-icon" alt="Tech Training Company Logo">
 			<div class="topic-banner-bg"></div>
 			<h1>Virtualization</h1>
-			<h2>Snapshots, Installs and Pausing</h2>
+			<h2>The Finale, Internal Networking and Vbox Images</h2>
 		</div>
 		<div class="grid-container main-content">
 			<div class="grid-x grid-margin-x grid-padding-x">
@@ -21,19 +21,18 @@
 					<h1>Why do I need to know about this?</h1>
 				</div>
 				<div class="large-4 cell cell-borders">
-					<h3>Snapshots</h3>
-					<p>We all make mistakes, sometimes we install something wrong. Add a bit of code that breaks everything, or just brick the entire sytem with an update</p>
-					<p>Snapshots allow you to essentially rewind back to when you took them, finally making it possible to rewind back to before you installed that program that slowed down your entire PC!</p>
+					<h3>Internal Networking</h3>
+					<p>Isolating a network is cool and all. But what if you need two VM's to talk to eachother, but what if you need an VM to talk to another VM? Such as in the case of pentesting, getting a insecure VM to talk to a VM your going to pentest with.</p>
+					<p>That's where internal networking comes in! You can make a network where only the VM's can communicate to eachother, but never communicate onto or across your own network</p>
 				</div>
 				<div class="large-4 cell cell-borders">
-					<h3>More Installations</h3>
-					<p>It can be important when handling different virtual machines to know how they handle with different filesystems. And if you have a lot to test, then you may want something like Unattended Install to speed up the process.</p>
-					<p>Never forget aswell that if you were testing what happens when you run malware, you'd want to be able to rollback to before it infected your system, and check how it handles multiple drives.</p>
+					<h3>Virtualbox Compatible Images</h3>
+					<p>Virtualbox can be a little fussy when it comes to what files it accepts. Such as it refuses img files. But there is a hidden command that will let you turn any file into a VDI that Virtualbox can potentially load!</p>
 				</div>
 			</div>
 			<div class="grid-y grid-padding-y grid-margin-y grid-video-section">
 				<div class="large-3 text-center">
-					<h1>Enough explaining things, click here for the second Virtual Box video!</h1>
+					<h1>Ready for the final video? Click below!</h1>
 				</div>
 				<div class="large-auto align-center">
 					<video class="flex-video" id="test-video-border"> <source src="https://drive.google.com/file/d/1vfKiJkZuJ7RWNvnY6LOUZSF3SbFsoW8o/view?usp=sharing.mp4" type="video/mp4"> Oops! Your Browser has failed to load this video, try refreshing the page, turning off adblock or using a different browser.</video>
@@ -45,19 +44,16 @@
 						</div>
 						<div class="medium-6 cell">
 							<ul>
-								<li>Pausing a Virtual Machine</li>
-								<li>Online and Offline snapshots</li>
-								<li>Different installation types (Linux)</li>
-								<li>Unattended Installations</li>
-								<li>Multiple Virtual Hard Disks</li>
+								<li>Internal Networking</li>
+								<li>Virtualbox Compatible Images</li>
 							</ul>
 						</div>
 					</div>
 					<h2>Lesson Resources used</h2>
 					<ul>
-						<li><a href="https://zorin.com/os/download/">Zorin OS</a></li>
-						<li><a href="https://lubuntu.me/downloads/">Lubuntu</a></li>
-						<li><a href="https://ubuntu.com/download/desktop">Ubuntu Desktop</a></li>
+						<li><a href="https://peppermintos.com/">Peppermint OS</a></li>
+						<li><a href="https://www.kali.org/get-kali/#kali-installer-images">Kali Linux</a></li>
+						<li><a href="https://sourceforge.net/projects/metasploitable/">Metasploitable 2</a></li>
 					</ul>
 					<h2>What is Virtualbox Why are we using it?</h2>
 					<p>Virtual Box is a virtualization program with Type-2 Hyper-Visor capabilities. It's free to use and simple while containing complex features</p>
