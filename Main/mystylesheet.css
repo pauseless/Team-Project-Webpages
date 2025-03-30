@@ -44,3 +44,11 @@
 	background-color: lemonchiffon;
 	background-blend-mode: multiply;
 }
+
+.company-icon{
+	height: 11em;
+	width: 14em;
+	left:1em;
+	top:0em;
+	position: absolute;
+}
